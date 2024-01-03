@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Welcome to WON Talk</title>
+    <title>Friends Kokoa clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -21,19 +21,31 @@
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to KoKoa Clone</h1>
-      <p class="welcome-header__text">
-        If you have a KoKoa Account, log in with your email or phone number.
-      </p>
-    </header>
-    <!-- there is only two login form so use id -->
-    <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or Phone number" />
-      <input name="password" type="password" placeholder="password" />
-      <input type="submit" value="Log in" />
-      <a href="#">Find Kokoa Account or Password</a>
-    </form>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a href="#" class="nav__link"
+            ><i class="fa-solid fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="#" class="nav__link"
+            ><i class="fa-regular fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="#" class="nav__link"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="#" class="nav__link"
+            ><i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
 
     <script
       src="https://kit.fontawesome.com/75a4b52158.js"
