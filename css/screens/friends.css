@@ -1,0 +1,14 @@
+/* anchor는 inline이므로 높이와 너비x
+중앙으로 움직이려면 block으로 변경해야함 */
+
+.friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: #fafafa;
+  padding: 15px 0px;
+  font-size: 18px;
+}
+
+.friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+}
