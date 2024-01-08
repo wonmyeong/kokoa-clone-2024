@@ -23,67 +23,78 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">More</h1>
 
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        <span
+          ><a href="setting.html"><i class="fa-solid fa-gear fa-lg"></i></a
+        ></span>
       </div>
     </header>
-    <a class="friends-display-link">
-      <i class="fa-solid fa-circle-info"></i> friend's-Names-display
-      <i class="fa-solid fa-chevron-right"></i>
-    </a>
 
-    <main class="friends-screen">
+    <main class="main-screen more-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img src="screenshots/Won.jpg" class="user-component__avartar" />
           <div class="user-component__text">
             <h4 class="user-component__title">Nicolas</h4>
-            <!-- <h6 class="user-component__subtitle">this is text whatever</h6> -->
-          </div>
-        </div>
-        <div class="user-component__column"></div>
-      </div>
-
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-      </div>
-
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="screenshots/Won.jpg"
-            class="user-component__avartar user-component__avartar--sm"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title__title--not-bold">Channel</h4>
+            <h6 class="user-component__subtitle">+82 1063657647</h6>
           </div>
         </div>
         <div class="user-component__column">
-          <div>
-            <span>2</span>
-            <i class="fas fa-chevron-right fa-xs"></i>
+          <i class="fa-regular fa-message fa-2x"></i>
+        </div>
+      </div>
+
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-calendar-check"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-hard-drive"></i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-face-smile"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-brush"></i>
+          <span>Themes</span>
+        </div>
+      </div>
+
+      <div class="more_suggestions">
+        <h4 class="more_suggestion-title">Suggestions</h4>
+        <div class="more-suggestions-icons">
+          <div class="more-suggestion-icon">
+            <div class="more-suggestions-icon-image">
+              <i class="fa-solid fa-quote-right fa-2x"></i>
+            </div>
+            <span class="more-suggestions-icons__icon-text">Kakao Story</span>
+          </div>
+          <div class="more-suggestion-icon">
+            <div class="more-suggestions-icon-image">
+              <i class="fa-solid fa-quote-right fa-2x"></i>
+            </div>
+            <span class="more-suggestions-icons__icon-text">Kakao Story</span>
           </div>
         </div>
       </div>
     </main>
-    <div></div>
+
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a href="friends.html" class="nav__link"
-            ><i class="fa-solid fa-user fa-2x"></i
-          ></a>
+          <a href="friends.html" class="nav__link">
+            <i class="fa-regular fa-user fa-2x"></i>
+          </a>
         </li>
         <li class="nav__btn">
           <a href="chats.html" class="nav__link">
-            <span class="nav__notification badge">1</span>
             <i class="fa-regular fa-comment fa-2x"></i>
           </a>
         </li>
@@ -94,15 +105,12 @@
         </li>
         <li class="nav__btn">
           <a href="more.html" class="nav__link">
-            <div class="nav__news"></div>
+            <div class="nav__news dot"></div>
             <i class="fa-solid fa-ellipsis fa-2x"></i>
           </a>
         </li>
       </ul>
     </nav>
-    <div id="splash-screen">
-      <i class="fa-solid fa-comment fa-3x"></i>
-    </div>
     <div id="no-mobile">
       <span>Your screen is too big ㅠㅠㅠ</span>
     </div>

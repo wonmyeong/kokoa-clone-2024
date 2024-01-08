@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px;
+  padding: var(--horizontal-space);
 }
 
 .screen-header__title {
@@ -12,4 +12,17 @@
 
 .screen-header__icons span {
   margin-left: 20px;
+}
+
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header .fa-gear:hover {
+  animation: rotateGear 1s linear infinite;
 }
