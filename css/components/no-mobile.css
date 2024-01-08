@@ -16,9 +16,3 @@
     display: none;
   }
 }
-
-@media (orientation: landscape) {
-  #no-mobile {
-    display: none;
-  }
-}
